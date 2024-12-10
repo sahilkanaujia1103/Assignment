@@ -22,27 +22,30 @@ body
   
     
 }
-button{
+#shadow{
     position: fixed;
     bottom: 10%;
-    left: 15%;
-    padding: 1rem;
+    left: 12%;
+    padding: 1.2rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-radius: 10px;
+    display: none;
+    font-weight: 600;
 }
-button:active{
+#shadow:active{
     scale:0.95
 }
 
 #home{
     position: fixed;
     bottom: 10%;
-    left: 80%;
-    padding: 1rem;
+    left: 47%;
+    padding: 1.2rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-radius: 10px;
+    font-weight: 600;
 }
 #home:active{
     scale:0.95

@@ -130,7 +130,7 @@ gltfLoader.load(
     }
 )
 
-const btn=document.querySelector("button")
+const btn=document.querySelector("#shadow")
 const home=document.querySelector("#home")
 
 // plane
@@ -154,7 +154,8 @@ home.addEventListener("click",()=>{
         suzanne.position.set(0,0,0)
         plane.position.y=-2
     }
-    home.style.opacity=0
+    home.style.display="none"
+    btn.style.display="block"
     
 })
 
